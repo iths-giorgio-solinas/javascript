@@ -3,7 +3,7 @@
         let listYears = document.querySelector(".listYears");
         let hidden = document.querySelectorAll(".hidden");
         
-        myButton.addEventListener('click', getData())
+        myButton.addEventListener('click', getData)
 
         
         let name = document.querySelector(".name")
