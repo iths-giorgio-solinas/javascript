@@ -19,7 +19,7 @@
             let myDataJs =  await fetch (url);
             let myData =  await  myDataJs.json();
             
-            if(myData.data.length==0){
+            if(myData.data.length==0 || myInput.value==""){
                 alert("No player found")
             }
             

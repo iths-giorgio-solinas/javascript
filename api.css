@@ -1,8 +1,38 @@
+.wrapper {
+    margin: 20px;
+    padding: 20px;
+    border: 25px solid rgb(165, 194, 204);
+    background-color: rgb(247, 243, 243);
+
+    
+}
 .prototype {
     display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 20px 0;
+    padding: 10px;
+
+}
+
+h1{
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+h2 {
+    color: red;
 }
 p{
-    padding: 10px;
+    padding: 10px 0;
+}
+
+p.year {
+    padding: 0;
+}
+input {
+    width: 50%;
+    height: 20px;
 }
 
 /* .hidden {
@@ -10,7 +40,9 @@ p{
 }*/
 
 .myButton {
-    border-radius: 5%;
+    border-radius: 8%;
+    height: 30px;
     width: 100px;
     border: 1px solid red;
+    margin: 20px;
 }
