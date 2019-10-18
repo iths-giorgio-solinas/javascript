@@ -1,0 +1,16 @@
+.prototype {
+    display: flex;
+}
+p{
+    padding: 10px;
+}
+
+/* .hidden {
+    display: none;
+}*/
+
+.myButton {
+    border-radius: 5%;
+    width: 100px;
+    border: 1px solid red;
+}
